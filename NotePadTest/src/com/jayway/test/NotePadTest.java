@@ -13,13 +13,14 @@
 package com.jayway.test;
 
 import com.example.android.notepad.NotesList;
-
+import com.jayway.android.robotium.solo.Solo;
 import android.test.ActivityInstrumentationTestCase2;
 
 
 public class NotePadTest extends ActivityInstrumentationTestCase2<NotesList>{
 
 	private Solo solo;
+
 	public NotePadTest() {
 		super(NotesList.class);
 
